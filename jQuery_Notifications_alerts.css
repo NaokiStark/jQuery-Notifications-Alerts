@@ -1,0 +1,60 @@
+/*
+jQuery Notifications Alerts
+
+Puika Software
+*/
+.notypos{
+  position: fixed;
+	width: 250px;
+	z-index: 9999;
+}
+.notifyalert{
+  width: 220px;
+  font-size: .9em;
+  background: rgba(17, 17, 17, 0.84);
+  color: #f0f0f0;
+  padding-top: 16px;
+  padding-left: 10px;
+  overflow: hidden;
+  position: relative;
+  min-height: 60px;
+  padding-bottom: 0px;
+  cursor:pointer;
+  margin:5px 0;
+}
+.notifyalert img.notifyimg{
+  max-width:48px;
+  
+}
+.notifyalert div.notifycontent{
+  width: 157px;
+  max-height:48px;
+  position:relative;
+  top:-55px;
+  left:55px;
+  
+}
+.notifyalert.noimage div.notifycontent{
+  position:static!important;
+}
+.notypos.left{
+  left:0px;
+}
+.notypos.right{
+  right:0px;
+}
+.notypos.top{
+  top:0px;
+}
+.notypos.bottom{
+  bottom:0px;
+}
+.ntclose{
+  content:" ";
+  background:url(http://golferholics.com/golf-property/assets/x-bef06ef93aa9c26a00b852ed577ff7ae.png)no-repeat;
+  background-size: 19px;
+  padding: 10px;
+  position: absolute;
+  right: 2px;
+  top: 4px;
+}
